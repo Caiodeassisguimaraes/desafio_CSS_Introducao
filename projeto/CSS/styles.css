@@ -1,12 +1,23 @@
-.cabeçalho {
+.cabecalho {
   position: relative;
   width: 1200px;
   height: 100px;
   left: 0px;
   top: 0px;
   background: #f03c42;
-  border: 10px;
-  border-color: aquamarine;
+  border: 2px solid #000000;
+  padding-left: 200px;
+  padding-right: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container1 {
+  border: 1px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 200px;
 }
 .gym-structure {
   position: relative;
