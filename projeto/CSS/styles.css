@@ -1,33 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
+body {
+  margin: 0px;
+}
 .cabecalho {
-  /*position: relative;*/
-
-  width: 1200px;
-  height: 100px;
-  left: 0px;
-  top: 0px;
   background: #f03c42;
-
+  height: 100px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .container1 {
   border: 1px solid #000000;
-  /*display: flex;
   align-items: center;
-  width: 200px;*/
-  /*position: static;*/
-
+  /*width: 99px;
+  height: 25px;
+  left: 120px;
+  top: 38px;*/
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
-  /* identical to box height */
-
   display: flex;
 
   color: #ffffff;
@@ -41,7 +35,6 @@
   /* @DSSuperFit */
 
   /*position: static;*/
-
   width: 200px;
   font-family: "Open Sans";
   font-style: normal;
@@ -56,25 +49,18 @@
   justify-content: space-evenly;
 }
 
-
-
-
-
-
 .gym-structure {
-  position: relative;
   width: 1200px;
   height: 418px;
   left: 0px;
   top: 100px;
-
   background: #222374;
 }
 .meet_our_space {
+  margin: 0px;
   color: #ffffff;
 }
 .fitness-space {
-  position: relative;
   width: 960px;
   height: 127px;
   left: 120px;
@@ -87,7 +73,6 @@ h3:hover {
   cursor: pointer;
 }
 .modalidades {
-  position: relative;
   width: 960px;
   height: 106px;
   left: 120px;
@@ -101,7 +86,6 @@ h3 {
   color: #ffffff;
 }
 footer {
-  position: relative;
   width: 1200px;
   height: 262px;
   left: 0px;
