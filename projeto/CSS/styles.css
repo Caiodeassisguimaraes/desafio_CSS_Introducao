@@ -1,24 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
 .cabecalho {
-  position: relative;
+  /*position: relative;*/
+
   width: 1200px;
   height: 100px;
   left: 0px;
   top: 0px;
   background: #f03c42;
-  border: 2px solid #000000;
-  padding-left: 200px;
-  padding-right: 200px;
+
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .container1 {
   border: 1px solid #000000;
+  /*display: flex;
+  align-items: center;
+  width: 200px;*/
+  /*position: static;*/
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
   display: flex;
+
+  color: #ffffff;
+}
+.container2 {
+  border: 1px solid #000000;
+  /*display: flex;
   align-items: center;
   justify-content: space-evenly;
+  width: 200px;*/
+  /* @DSSuperFit */
+
+  /*position: static;*/
+
   width: 200px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+
+  color: #ffffff;
+  justify-content: space-evenly;
 }
+
+
+
+
+
+
 .gym-structure {
   position: relative;
   width: 1200px;
