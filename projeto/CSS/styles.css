@@ -31,7 +31,7 @@ header{
   /*border: 1px solid #000000;*/
   width: 100%;
   max-width: 960px;
-  margin: 0 auto;
+  margin: 35px 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -77,6 +77,39 @@ div h1 {
   align-items: center;
 }
 
+#meet_our_space{
+
+ background-color: var(--color-blue);
+ width: 100%;
+ /*max-width: 1200px;*/
+ /*height: 100%;
+ max-height: 418px;*/
+ height: 418px;
+ left: 0px;
+ top: 100px;
+ display: flex;
+ align-items: flex-start; 
+
+}
+
+.gym-structure{
+
+  color: var(--color-white);
+  width: 357px;
+  height: 44px;
+  left: 120px;
+  top: 120px;
+  border: 1px solid #f03c42;
+  margin: 20px 723px 354px 120px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+
+}
+
 /*.container2 {
   border: 1px solid #000000;
   /*display: flex;
@@ -101,7 +134,7 @@ div h1 {
   align-items: center;
 }
 
-/*.gym-structure {
+.gym-structure {
   width: 1200px;
   height: 418px;
   left: 0px;
