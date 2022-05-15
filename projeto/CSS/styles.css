@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap");
 
-:root{
+:root {
   --color-red: #f03c42;
-  --color-white: #FFFFFF;
-  --color-gray: #CCCCCC;
+  --color-white: #ffffff;
+  --color-gray: #cccccc;
   --color-blue: #222374;
   --color-black: #000000;
 }
 
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-header{
+header {
   background-color: var(--color-red);
   /*border: 1px solid #000000;*/
   width: 100%;
@@ -27,7 +27,7 @@ header{
   align-items: center;
 }
 
-.container{
+.container {
   box-sizing: border-box;
   border: 1px solid #000000;
   width: 100%;
@@ -55,32 +55,30 @@ header{
   align-items: center;
 }
 
-.container2{
+.container2 {
   box-sizing: border-box;
   border: 1px solid #000000;
   width: 100%;
   max-width: 130px;
   /*margin: 0 auto;*/
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
   color: var(--color-white);
 }
 
-.container2  div img{
-  
+.container2 div img {
   /*border: 1px solid #ffffff;*/
-  height: 30px; 
+  height: 30px;
   width: 30px;
-  left: 955px; 
+  left: 955px;
   top: 35px;
   border-radius: 0px;
   display: flex;
   /*align-items: center;*/
-
 }
 
-.DSSuperFit{
+.DSSuperFit {
   /*border: 1px solid #000000;*/
   width: 85px;
   height: 19px;
@@ -94,128 +92,148 @@ header{
   align-items: center;
 }
 
-/*Desse ponto pra cima está tudo certo*/
-
-#meet_our_space{
-
- background-color: var(--color-blue);
- /*width: 100%;
- max-width: 1200px;
- margin: 0px auto;
- /*height: 100%;
- max-height: 418px;*/
- height: 418px;
- left: 0px;
- right: 0px;
- top: 100px;
- display: flex;
- padding: 20px 120px 40px 120px;
- /*align-items: center;*/ 
-
+#meet_our_space {
+  background-color: var(--color-blue);
+  /*width: 100%;
+  max-width: 1200px;*/
+  margin: 0 auto;
+  height: 100%;
+  max-height: 418px;
+  /*height: 418px;*/
+  left: 0px;
+  right: 0px;
+  top: 100px;
+  display: flex;
+  /*padding: 20px 120px 40px 120px;*/
+  /*align-items: center;*/
+  flex-direction: column;
+  justify-content: center;
 }
 
 .container3 {
-
-  border: 1px solid #ffffff;
+  border: 1px solid #00ff62;
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 40px;
-
+  /*display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;*/
 }
 
-/*.gym-structure{
-
-  width: 100%;
-  max-width: 960px;
-  height: 44px;
-  margin: 0 auto;
-  left: 120px;
-  /*top: 120px;*/
-  /*margin: 20px 723px 354px 120px;*/
-  
-  /*display: flex;
-  align-items: center;
-}*/
-
-.gym-structure h2{
-
+.gym-structure h2 {
   color: var(--color-white);
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
-  /*line-height: 44px;*/
-  border: 1px solid #f93d3d;
-
-
+  font-size: 32px;
+  line-height: 44px;
+  /*border: 1px solid #f93d3d;*/
+  /*margin: 20px 723px 354px 120px;*/
 }
 
-/*.container2 {
-  border: 1px solid #000000;
-  /*display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 200px;*/
-  /* @DSSuperFit */
-
-  /*position: static;*/
-  /*width: 200px;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
-  /* identical to box height */
-
-  /*display: flex;
-
-  color: #ffffff;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.gym-structure {
-  width: 1200px;
-  height: 418px;
-  left: 0px;
-  top: 100px;
-  background: #222374;
-}
-.meet_our_space {
-  margin: 0px;
-  color: #ffffff;
-}
 .fitness-space {
+  /*border: 1px solid #f93d3d;*/
+  background-color: var(--color-gray);
+  border-radius: 8px;
+  margin-top: 40px;
   width: 960px;
   height: 127px;
   left: 120px;
   top: 204px;
+  padding: 20px;
+}
 
-  background: #cccccc;
-  border-radius: 8px;
+.fitness-space h3 {
+  /*border: 1px solid #f93d3d;*/
+  color: var(--color-black);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
 }
-h3:hover {
-  cursor: pointer;
+
+.fitness-space p {
+  color: var(--color-black);
+  /*border: 1px solid #ffffff;*/
+  width: 920px;
+  height: 40px;
+  left: 140px;
+  top: 271px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
 }
-.modalidades {
+
+#activities {
+  background-color: var(--color-gray);
+  border: 1px solid #000000;
+  height:100%;
+  /*margin: 0 auto;*/
+  /*height: 100%;
+  /*max-height:880px;*/
+  /*width: 100%;
+  /*max-width: 1200px;*/
+  /*left: 0px;
+  top: 518px;*/
+  
+}
+
+.container4 {
+  border: 2px solid #ff00e6;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  /*margin-top: 20px;*/
+  margin-bottom: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.container4 div h2 {
+  border: 1px solid #ff0000;
+  color: var(--color-red);
+  width: 204px;
+  height: 44px;
+  left: 120px;
+  top: 538px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.container5 {
+  background-color: var(--color-blue);
   width: 960px;
   height: 106px;
   left: 120px;
   top: 622px;
-
-  background: #222374;
   border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0px;
+
 }
 
-h3 {
-  color: #ffffff;
-}
-footer {
-  width: 1200px;
-  height: 262px;
-  left: 0px;
-  top: 1398px;
+.container5 h3 {
+  color: var(--color-white);
+  border: 1px solid #000000;
+  padding-bottom: 20px;
 
-  background: #000000;
+}
+
+.container5 p {
+  color: var(--color-gray);
+  padding-bottom: 20px;
 }
